@@ -18,11 +18,13 @@ sudo yum install neovim # for neovim
 # neovim
 
 # vim plug
-mkdir -p ~/.vim/autoload/
-curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # vim plug
 
 brew install ripgrep fzf
 
-nvim +PlugInstall +qall
+vim +PlugInstall +qall
+
+git config --global user.email "niolenelson@gmail.com"
+git config --global user.name "niole"
