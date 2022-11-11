@@ -160,7 +160,6 @@
         Plug 'elixir-lang/vim-elixir'
 
         Plug 'HerringtonDarkholme/yats.vim'
-        Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
         Plug 'jparise/vim-graphql'
 
         " " Haskell omnifunc
