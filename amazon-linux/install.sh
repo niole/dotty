@@ -22,7 +22,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # vim plug
 
-brew install ripgrep fzf
+brew install ripgrep fzf gh
 
 vim +PlugInstall +qall
 
