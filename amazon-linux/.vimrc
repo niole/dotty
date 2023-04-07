@@ -1,5 +1,8 @@
 " vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker spell:
 
+" Default command for fzf, so that it respects .gitignores
+let $FZF_DEFAULT_COMMAND='rg --files'
+
 " Neovim {
     " Neovim Python Provider {
     let g:python_host_prog="PYTHON_2_NODE_HOST"
