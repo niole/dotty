@@ -29,5 +29,5 @@ vim +PlugInstall +qall
 git config --global user.email "niolenelson@gmail.com"
 git config --global user.name "niole"
 
-echo "Please run the following command in vim in order to setup copilot"
+echo "Please run the following command in vim in order to setup copilot. See https://github.com/github/copilot.vim for other Qs."
 echo ":Copilot setup"
