@@ -54,6 +54,7 @@ let $FZF_DEFAULT_COMMAND='rg --files'
 
     call plug#begin('~/.config/nvim/plugged')
     " Plugins {
+        Plug 'github/copilot.vim'
         Plug 'tpope/vim-fugitive'
         Plug 'tpope/vim-rhubarb'
         Plug 'mhinz/vim-signify'
