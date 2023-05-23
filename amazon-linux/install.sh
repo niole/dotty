@@ -22,6 +22,11 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # vim plug
 
+# poetry
+curl -sSL https://install.python-poetry.org | python3 -
+echo 'export PATH="/home/ec2-user/.local/bin:$PATH"' >> ~/.zshrc
+# poetry
+
 brew install ripgrep fzf gh
 
 vim +PlugInstall +qall
