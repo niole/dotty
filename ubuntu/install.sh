@@ -14,7 +14,12 @@ cp .tmux.conf ~/
 
 cp git.plugin.sh ~/
 
-sudo apt install curl vim neovim ripgrep fzf gh tmux
+sudo apt install curl vim neovim ripgrep gh tmux
+
+# install fzf
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+# install fzf
 
 # neovim
 npm install -g neovim # for node host
