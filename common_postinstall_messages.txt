@@ -1,0 +1,11 @@
+
+---
+Run the following to setup copilot. See https://github.com/github/copilot.vim for other Qs.
+:Copilot setup
+
+Add the following to .bashrc (or .bash_profile on mac) for git aliases:
+source ~/git.plugin.sh
+
+Run the following for go LSP:
+:CocInstall coc-go
+---
