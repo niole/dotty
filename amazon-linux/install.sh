@@ -11,6 +11,7 @@ sed "s/PYTHON_2_NODE_HOST/$PYTHON_2_NODE_HOST/g" .vimrc | \
     sed "s/NEOVIM_NODE_HOST/$NEOVIM_NODE_HOST/g" > ~/.vimrc
 
 cp .tmux.conf ~/
+cp ../git.plugin.sh ~/
 
 # neovim
 npm install -g neovim # for node host
